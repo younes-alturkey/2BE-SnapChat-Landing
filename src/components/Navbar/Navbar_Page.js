@@ -41,7 +41,7 @@ class NavbarPage extends Component {
             <React.Fragment>
                 <StickyHeader
                     header={
-                        <Navbar expand="lg" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
+                        <Navbar expand="md" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
                                 <Container>
                                 <Row>
                                     <Col lg={6}>

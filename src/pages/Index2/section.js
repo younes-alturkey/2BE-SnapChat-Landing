@@ -24,7 +24,7 @@ class Section extends Component {
                     <Container>
                         <Row>
                             <Col lg={{size:8, offset :2}}  className="col-lg-8 offset-lg-2 text-white text-center">
-                                <h1 style={{fontWeight: "600", paddingBottom: "6rem"}} className="home-title">أعلن عبر منصة السناب شات الرسمية</h1>
+                                <h1 style={{fontWeight: "600", paddingTop: "3rem", paddingBottom: "3rem"}} className="home-title">أعلن عبر منصة السناب شات الرسمية</h1>
                             </Col>
                         </Row>
                     </Container>

@@ -1,0 +1,49 @@
+{
+  "name": "الإعلان على سناب شات",
+  "homepage": "http://alturkeydev.github.io/snap-bassamatexp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "availity-reactstrap-validation": "^2.6.1",
+    "bootstrap": "^4.5.0",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-lottie": "^1.2.3",
+    "react-modal-video": "^1.2.5",
+    "react-particles-js": "^3.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-sticky-header": "^0.2.0",
+    "react-text-rotator": "^0.1.1",
+    "react-whatsapp-badge": "^1.0.3",
+    "reactstrap": "^8.5.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

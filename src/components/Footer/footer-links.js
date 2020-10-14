@@ -9,7 +9,7 @@ class FooterLinks extends Component {
                     <Container>
                         <Row>
                             <Col lg={11}>
-                                <div className="pull-none ">
+                                <div className="pull-none">
                                     <p style={{fontWeight: "600", textAlign: "center"}} className="copy-rights text-muted">{new Date().getFullYear()} © 2BE | جميع الحقوق محفوظة</p>
                                 </div>
                             </Col>

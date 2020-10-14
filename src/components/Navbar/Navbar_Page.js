@@ -46,7 +46,7 @@ class NavbarPage extends Component {
                                 <Row>
                                     <Col md={12}>
                                         <div className="float-right pull-none">
-                                          <a height="10px" href="https://www.linkedin.com/company/bassamatexp/" target="_blank" rel="noopener noreferrer">
+                                          <a href="https://www.linkedin.com/company/bassamatexp/" target="_blank" rel="noopener noreferrer">
                                             <img src="assets/images/in-logo.png" alt="linkedin" height="36" />
                                           </a>
                                           <a href="https://www.instagram.com/bassamatexp/" target="_blank" rel="noopener noreferrer">

@@ -41,11 +41,11 @@ class NavbarPage extends Component {
             <React.Fragment>
                 <StickyHeader
                     header={
-                        <Navbar expand="md" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
+                        <Navbar expand="lg" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
                                 <Container>
                                 <Row>
-                                    <Col lg={6}>
-                                        <div className="float-right">
+                                    <Col md={12}>
+                                        <div className="float-right pull-none">
                                           <a href="https://www.linkedin.com/company/bassamatexp/" target="_blank" rel="noopener noreferrer">
                                             <img src="assets/images/in-logo.png" alt="linkedin" height="36" />
                                           </a>

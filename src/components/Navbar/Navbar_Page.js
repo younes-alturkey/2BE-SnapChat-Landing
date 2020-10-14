@@ -50,7 +50,7 @@ class NavbarPage extends Component {
                                             <img src="assets/images/in-logo.png" alt="linkedin" height="36" />
                                           </a>
                                           <a href="https://www.instagram.com/bassamatexp/" target="_blank" rel="noopener noreferrer">
-                                            <img href="https://www.instagram.com/bassamatexp/" src="assets/images/instagram-logo.png" alt="instagram" height="0.9rem" />
+                                            <img href="https://www.instagram.com/bassamatexp/" src="assets/images/instagram-logo.png" alt="instagram" height="0.5rem" />
                                           </a>
                                           <a href="https://www.facebook.com/Bassamatexp1/" target="_blank" rel="noopener noreferrer">
                                             <img href="https://twitter.com/bassamatexp" src="assets/images/facebook-logo.png" alt="facebook" height="36" />

@@ -44,7 +44,7 @@ class NavbarPage extends Component {
                         <Navbar expand="lg" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
                                 <Container>
                                 <Row>
-                                    <Col lg={8}>
+                                    <Col lg={6}>
                                         <div className="float-right pull-none ">
                                           <a href="https://www.linkedin.com/company/bassamatexp/" target="_blank" rel="noopener noreferrer">
                                             <img src="assets/images/in-logo.png" alt="linkedin" height="36" />

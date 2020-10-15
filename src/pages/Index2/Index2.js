@@ -8,6 +8,7 @@ import Pricing from "../../components/Pricing/pricing";
 import Footer from "../../components/Footer/footer";
 import WhatsappBadge from 'react-whatsapp-badge';
 
+
 class Index2 extends Component {
     constructor(props) {
         super(props);
@@ -15,8 +16,8 @@ class Index2 extends Component {
             navItems : [
                 { id: 1 , idnm : "home", navheading: "الرئيسية" },
                 { id: 2 , idnm : "services", navheading: "مميزات الإعلان" },
-                { id: 3 , idnm : "pricing", navheading: "الباقات" },
-                { id: 4 , idnm : "features", navheading: "دعنا نناقش إعلانك" },
+                { id: 3 , idnm : "features", navheading: "دعنا نناقش إعلانك" },
+                { id: 4 , idnm : "pricing", navheading: "الباقات" },
 
             ],
             navClass : ""
@@ -26,7 +27,7 @@ class Index2 extends Component {
     render() {
         return (
             <React.Fragment>
-
+                
                 {/* Importing Navbar */}
                 <NavbarPage navItems={this.state.navItems} navClass={this.state.navClass} />
 
@@ -36,16 +37,17 @@ class Index2 extends Component {
                 {/* services */}
                 <Service  sectionClass="pt-5"/>
 
-                {/* pricing */}
-                <Pricing/>
-
                 {/* about us */}
                 <AboutUs/>
+
+                {/* pricing */}
+                <Pricing/>
 
                 {/* footer */}
                 <Footer/>
 
-                <WhatsappBadge text='' phone="966549454174" image='whatsapp.png'/>
+                <WhatsappBadge text='' phone="966545740629" image='whatsapp.png'/>
+                
 
             </React.Fragment>
         );

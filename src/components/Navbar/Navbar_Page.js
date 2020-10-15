@@ -41,22 +41,18 @@ class NavbarPage extends Component {
                         header={
                             <Navbar expand="lg" fixed="top" className={"navbar-custom sticky sticky-dark" + this.props.navClass}>
                                     <Container>
-                                    <div className="float-right">
-                                          <a href="https://www.linkedin.com/company/bassamatexp/" target="_blank" rel="noopener noreferrer">
-                                            <img src="assets/images/in-logo.png" alt="linkedin" height="16" />
-                                          </a>
-                                          <a href="https://www.instagram.com/bassamatexp/" target="_blank" rel="noopener noreferrer">
-                                            <img href="https://www.instagram.com/bassamatexp/" src="assets/images/instagram-logo.png" alt="instagram" height="16" />
-                                          </a>
-                                          <a href="https://www.facebook.com/Bassamatexp1/" target="_blank" rel="noopener noreferrer">
-                                            <img href="https://twitter.com/bassamatexp" src="assets/images/facebook-logo.png" alt="facebook" height="16" />
-                                          </a>
-                                          <a href="https://twitter.com/bassamatexp" target="_blank" rel="noopener noreferrer">
-                                            <img href="https://www.facebook.com/Bassamatexp1/" src="assets/images/twitter-logo.png" alt="twitter" height="16" />
-                                          </a>
-                                        </div>
-                                            <NavbarToggler onClick={this.toggle} ><i className="mdi mdi-menu"></i></NavbarToggler>
 
+                                    <div>
+                                        <a href="https://www.instagram.com/bassamatexp/" target="_blank" rel="noopener noreferrer">
+                                        <img href="https://www.instagram.com/bassamatexp/" src="assets/images/instagram-logo.png" alt="instagram" height="16" />
+                                        </a>
+                                        <a href="https://www.facebook.com/Bassamatexp1/" target="_blank" rel="noopener noreferrer">
+                                        <img href="https://twitter.com/bassamatexp" src="assets/images/facebook-logo.png" alt="facebook" height="16" />
+                                        </a>
+                                        <a href="https://twitter.com/bassamatexp" target="_blank" rel="noopener noreferrer">
+                                        <img href="https://www.facebook.com/Bassamatexp1/" src="assets/images/twitter-logo.png" alt="twitter" height="16" />
+                                        </a>
+                                     </div>                                        
                                         <Collapse id="navbarCollapse" style={{textAlign: "right"}} className="justify-content-center" isOpen={this.state.isOpenMenu} navbar>
                                         <ScrollspyNav
                                             scrollTargetIds={targetId}
@@ -68,7 +64,7 @@ class NavbarPage extends Component {
                                             <Nav navbar style={{direction: "rtl"}} className="navbar-center ml-auto" id="mySidenav">
                                                 {this.props.navItems.map((item, key) => (
                                                     <NavItem key={key} className={item.navheading === "Home" ? "active" : "" }>
-                                                        <NavLink style={{color: "#FFFC00"}} href={"#" + item.idnm} > {item.navheading}</NavLink>
+                                                        <NavLink style={{color: "#FFF"}} href={"#" + item.idnm} > {item.navheading}</NavLink>
                                                     </NavItem>
                                                 ))}
                                             </Nav>
@@ -77,6 +73,8 @@ class NavbarPage extends Component {
                                         <NavbarBrand className="logo text-uppercase" href="https://bassamatexp.com/" target="_blank" rel="noopener noreferrer">
                                             2BE
                                         </NavbarBrand>
+                                        <NavbarToggler onClick={this.toggle} ><i className="mdi mdi-menu"></i></NavbarToggler>
+
                                     </Container>
                                 </Navbar>
                         }

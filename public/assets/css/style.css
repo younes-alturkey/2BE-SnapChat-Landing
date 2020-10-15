@@ -223,7 +223,7 @@ iframe {
 }
 
 .bg-white {
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .bg-dark {
@@ -243,7 +243,7 @@ iframe {
 /*--Text color--- */
 
 .text-muted {
-    color: #a8aeb4 !important;
+    color: #000000 !important;
 }
 
 .text-white {
@@ -292,7 +292,7 @@ iframe {
 .btn-custom:hover,
 .open > .dropdown-toggle.btn-custom {
     border: 1px solid !important;
-    color: #f3f3f3 !important;
+    color: #FFFFFF !important;
 }
 
 .btn-bg-white {
@@ -341,7 +341,7 @@ iframe {
 
 .navbar-custom .navbar-brand {
     text-transform: uppercase;
-    color: #FFFC00 !important;
+    color: #FFF !important;
     font-weight: 700;
     letter-spacing: 2px;
     height: auto;
@@ -361,11 +361,11 @@ iframe {
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-    color: #fff;
+    color: #FFFC00;
 }
 
 .navbar-custom .navbar-nav li.active a {
-    color: #fff;
+    color: #FFFC00;
 }
 
 .is-sticky .navbar-custom {
@@ -381,7 +381,7 @@ iframe {
     font-size: 24px;
     margin-top: 0px;
     margin-bottom: 0px;
-    color: #ffffff;
+    color:  #FFFC00;
 }
 
 .navbar-custom .btn-custom {
@@ -748,6 +748,8 @@ iframe {
     border: 1px solid #ecf0f5;
     border-radius: 8px;
     box-shadow: 0 0 1.25rem rgba(108,118,134,.1)!important;
+    background: #000000;
+    color: #FFFC00;
 }
 
 .pricing-box h4 {
@@ -763,11 +765,12 @@ iframe {
     width: 100%;
     height: 1px;
     margin-top: 35px;
-    background-color: #ecf0f5;
+    background-color: #FFFC00;
 }
 
 .price-active {
     box-shadow: 0 0rem 4rem rgba(0,0,0,.1)!important;
+    background: #000000;
 }
 
 .plan-features p {
@@ -972,7 +975,7 @@ textarea.form-control {
 
 .footer {
     padding: 50px 0;
-    background-color: #272a33;
+    background-color: #000000;
 }
 
 .footer h4 {
@@ -1108,7 +1111,7 @@ textarea.form-control {
     .navbar-custom {
         margin-top: 0px;
         padding: 10px 0px !important;
-        background-color: #272a33 !important;
+        background-color: #000000 !important;
         box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
         color: #fff !important;
     }
@@ -1122,7 +1125,8 @@ textarea.form-control {
     }
 
      .navbar-white .navbar-toggler {
-    	color: #393f4f !important;
+        color: #000000 !important;
+        text-align: center;
 	}
     .navbar-custom .navbar-nav li a {
         transition: all 0.4s;
@@ -1132,7 +1136,7 @@ textarea.form-control {
         width: 100%;
     }
     .navbar-custom .navbar-nav li.active a {
-        color: #fff !important;
+        color: #FFFC00 !important;
         border-color: transparent;
     }
     .navbar-custom>.container {
@@ -1184,7 +1188,8 @@ textarea.form-control {
 	}
 
 	.pricing-box {
-		margin-top: 30px;
+        margin-top: 30px;
+        background: #000000;
 	}
 }
 
@@ -1345,4 +1350,22 @@ ul.pattern .color8 {
     #style-switcher {
         display: none;
     }
+}
+
+.navbar-custom{
+    background: black;
+}
+
+.accent {
+    background: #FFFC00;
+    color: #000000;
+}
+
+.bg-black {
+    background: black;
+}
+
+.progress-bar-striped {
+    font-weight: bold;
+    color: #000000;
 }

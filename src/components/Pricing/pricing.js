@@ -14,17 +14,20 @@ class Pricing extends Component {
             pricings : [
                { title : "الاقتصادية", price : 1350, duration : "",
                     features : [
-                        { title : "عدد المشاهدات", value : "100,000" }
+                        { title : "عدد المشاهدات", value : "100,000" },
+                        { title : "بوست", value : "1" }
                     ]
                 },
                 { title : "الأساسية", price : 3800, duration : "", isActive :true,
                     features : [
-                      { title : "عدد المشاهدات", value : "300,000" }
+                      { title : "عدد المشاهدات", value : "300,000" },
+                      { title : "بوست", value : "1" }
                     ]
                 },
                 { title : "الأفضل", price : 6000, duration : "",
                     features : [
-                      { title : "عدد المشاهدات", value : "500,000" }
+                      { title : "عدد المشاهدات", value : "500,000" },
+                      { title : "موشن", value : "10 ثواني" }
                     ]
                 },
             ]

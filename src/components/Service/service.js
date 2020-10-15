@@ -10,7 +10,7 @@ class Process extends Component {
         super(props);
         this.state = {
             services1 : [
-                { icon : "pe-7s-rocket", title : "نشر علامتك التجارية", desc : "زيادة الوعي للعلامة التجارية وانتشارها" },
+                { icon : "pe-7s-ribbon", title : "نشر علامتك التجارية", desc : "زيادة الوعي للعلامة التجارية وانتشارها" },
                 { icon : "pe-7s-medal", title : "المنافسة", desc : "منافسة الشركات والظهور للعملاء" },
                 { icon : "pe-7s-graph3", title : "زيادة المبيعات", desc : "تحقيق أعلى مستوى من زيادة المبيعات الناتجة عن البيع" },
             ],

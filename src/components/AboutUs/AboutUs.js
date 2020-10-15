@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
-import animationData from './aboutus-lottie-idea.json';
+import animationData from './aboutus-lottie-money.json';
+import animationHundred from './aboutus-lottie-up.json';
 import { Container, Row, Col } from "reactstrap";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const defaultOptions = {
       loop: true,
@@ -12,26 +14,55 @@ const defaultOptions = {
     }
 };
 
+const hundredOptions = {
+    autoplay: true,
+    animationData: animationHundred,
+    rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
+
 class AboutUs extends Component {
     render() {
         return (
             <React.Fragment>
-                <section className="section bg-light" id="features">
+                <section className="section bg-black" id="features">
             <Container>
                 <Row className="vertical-content">
-                    <Col lg={5}>
+                    <Col lg={6}>
+                        <div style={{width: "80%"}} className="float-left">
                         <div style={{textAlign: "center"}} className="features-box">
-                            <h3>دعنا نناقش اعلانك</h3>
-                            <p style={{direction: "rtl"}} className="text-muted web-desc">تواصل معنا لأي استفسار او مشاركة فكرة ودعنا نساهم سويةً في إنجاح اعلانك بكل احترافية</p>
-                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966549454174" style={{fontSize: "1rem", color: "#000000", fontWeight: "600", paddingRight: "2rem", paddingLeft: "2rem"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اتصل بنا</a>
+                                <h3 style={{fontWeight: "600", color: "#FFFC00", fontSize: "2.5rem", lineHeight: "4rem", paddingTop: "1rem"}}>دعنا نناقش اعلانك</h3>
                         </div>
+                        <div style={{textAlign: "center"}}>
+                            <Lottie
+                                options={defaultOptions}
+                            />
+                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966545740629" style={{fontSize: "1.2rem", color: "#000000", fontWeight: "600", paddingRight: "5rem", paddingLeft: "5rem", marginTop: "3rem"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اتصل بنا</a>
+                        </div>
+                    </div>
                     </Col>
-                    <Col lg={7}>
-                      <div style={{paddingTop: "2rem"}}>
-                          <Lottie
-                            options={defaultOptions}
-                          />
-                      </div>
+                    <Col lg={6}>
+                        <div style={{width: "80%"}} className="float-right">
+                        <div style={{textAlign: "center", width: "50%", margin: "auto", paddingBottom: "5rem"}} className="features-box">
+                            <Lottie
+                                options={hundredOptions}
+                            />
+                        </div>
+                        <div style={{direction: "rtl"}}>
+                                <h3 style={{textAlign: "right", fontWeight: "600", color: "#FFFC00", fontSize: "2rem"}}>عملاء جدد</h3>
+                                <br/>
+                                <ProgressBar variant="success" label={"95%"} animated now={95} />
+                                <br/>
+                                <h3 style={{textAlign: "right", fontWeight: "600", color: "#FFFC00", fontSize: "2rem"}}>مبيعات أكثر</h3>
+                                <br/>
+                                <ProgressBar variant="success" label={"90%"} animated now={90} />
+                                <br/>
+                                <h3 style={{textAlign: "right", fontWeight: "600", color: "#FFFC00", fontSize: "2rem"}}>وصول أكثر</h3>
+                                <br/>
+                                <ProgressBar variant="success" label={"85%"} animated now={85} />
+                        </div>
+                    </div>
                     </Col>
                 </Row>
             </Container>

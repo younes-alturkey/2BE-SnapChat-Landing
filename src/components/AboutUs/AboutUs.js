@@ -30,20 +30,20 @@ class AboutUs extends Component {
             <Container>
                 <Row className="vertical-content">
                     <Col lg={6}>
-                        <div style={{width: "80%"}} className="float-left">
+                        <div>
                         <div style={{textAlign: "center"}} className="features-box">
-                                <h3 style={{fontWeight: "600", color: "#FFFC00", fontSize: "2.5rem", lineHeight: "4rem", paddingTop: "1rem"}}>دعنا نناقش اعلانك</h3>
+                                <h3 style={{fontWeight: "600", color: "#FFFC00", fontSize: "2.5rem", lineHeight: "4rem", paddingTop: "3rem"}}>دعنا نناقش اعلانك</h3>
                         </div>
                         <div style={{textAlign: "center"}}>
                             <Lottie
                                 options={defaultOptions}
                             />
-                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966545740629" style={{fontSize: "1.2rem", color: "#000000", fontWeight: "600", paddingRight: "5rem", paddingLeft: "5rem", marginTop: "3rem"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اتصل بنا</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966545740629" style={{fontSize: "1.2rem", color: "#000000", fontWeight: "600", paddingRight: "5rem", paddingLeft: "5rem", marginTop: "3rem", marginBottom: "3rem"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اتصل بنا</a>
                         </div>
                     </div>
                     </Col>
                     <Col lg={6}>
-                        <div style={{width: "80%"}} className="float-right">
+                        <div>
                         <div style={{textAlign: "center", width: "50%", margin: "auto", paddingBottom: "5rem"}} className="features-box">
                             <Lottie
                                 options={hundredOptions}

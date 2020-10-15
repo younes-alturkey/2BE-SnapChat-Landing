@@ -37,7 +37,7 @@ class Pricing extends Component {
                 <section className="section pt-5" id="pricing">
                     <Container>
                         {/* section title */}
-                    <SectionTitle title="باقاتنا هي الأولى" desc="" />
+                    <SectionTitle title="باقات النجاح" desc="" />
 
                         <Row className="margin-t-50">
                             {/* pricing box */}

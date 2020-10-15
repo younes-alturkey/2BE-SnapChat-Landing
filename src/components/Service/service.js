@@ -28,7 +28,7 @@ class Process extends Component {
         <section className={"section " + this.props.sectionClass} id="services">
             <Container>
                 {/* section title */}
-                <SectionTitle title="منصة السناب شات" desc="اصبح سناب شات واحد من أكثر التطبيقات استخداماً في العالم حيث وصل مستخدميه إلى 180 مليون مستخدم يومياً، ويعتبر الاعلان على السناب واحدة من أنجح أنواع الاعلانات، لذلك سوف نقدم لك دراسة متكاملة تعمل على تحقيق أهدافك بإتباع أفضل و أقوى الاستراتيجيات الإعلانية الخاصة بنا. نسعد بخدمتكم." />
+                <SectionTitle title="مميزات الإعلانات على السناب شات" desc="" />
 
                 <Row style={{direction: "rtl"}} className="margin-t-30">
                     {/* services box */}

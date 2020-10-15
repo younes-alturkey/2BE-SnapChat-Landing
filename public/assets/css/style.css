@@ -88,10 +88,9 @@ b {
 }
 
 img {
-  margin: 1rem;
+  margin: 0.5rem;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 0.5rem;
 }
 
 ::-moz-selection {
@@ -153,8 +152,8 @@ img {
 }
 
 .bg-overlay {
-    background: linear-gradient(to right, #141410 0%, #fffc00 100%);
-    opacity: 0.9;
+    background: #FFFC00;
+    opacity: 0.92;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -327,6 +326,7 @@ iframe {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    background: black;
 }
 
 .sticky-wrapper {
@@ -341,7 +341,7 @@ iframe {
 
 .navbar-custom .navbar-brand {
     text-transform: uppercase;
-    color: #fff !important;
+    color: #FFFC00 !important;
     font-weight: 700;
     letter-spacing: 2px;
     height: auto;
@@ -371,7 +371,7 @@ iframe {
 .is-sticky .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px;
-    background-color: #272a33;
+    background-color: #000000;
     -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
@@ -416,8 +416,8 @@ iframe {
           5.HOME
   =====================================*/
 
-.bg-home {
-    background: url("../images/bg-home.jpg");
+  .bg-home {
+    background: url("../images/bg-home.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -426,6 +426,7 @@ iframe {
 .home-title {
     font-size: 46px;
     line-height: 64px;
+    color: #000000;
 }
 
 .display-table-cell {
@@ -672,18 +673,19 @@ iframe {
 ========================================*/
 
 .services-box {
-    padding: 15px 10px;
+    padding: 20px 15px;
 }
 
 .services-box i {
     font-size: 32px;
-    height: 68px;
-    width: 68px;
-    background-color: #fff;
+    height: 80px;
+    width: 80px;
+    background-color: #000;
     border-radius: 50%;
     box-shadow: 0 0 1.25rem rgba(108,118,134,.1)!important;
     line-height: 68px;
     margin-bottom: 15px;
+    padding-top: 5px;
 }
 
 .services-box:hover i {
@@ -1033,12 +1035,13 @@ textarea.form-control {
 
 .footer-alt {
     padding: 15px 0;
-    background-color: #2e313a;
+    background-color: #000000;
 }
 
 .copy-rights {
     margin-bottom: 0;
     line-height: 36px;
+    color: #FFFC00;
 }
 
 /*=====================================
@@ -1154,6 +1157,7 @@ textarea.form-control {
     .home-title {
         font-size: 32px;
         line-height: 48px;
+        color: #000000;
     }
     .vertical-content {
         display: inherit;

@@ -20,7 +20,7 @@ class PricingBox extends Component {
                                         )
                                     }
                                 </div>
-                                <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966549454174" style={{color: "#000000", fontWeight: "600"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اشتري الآن</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966549454174" style={{color: "#000000", fontWeight: "600"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اطلب الآن</a>
                             </div>
                         </Col>
                     )

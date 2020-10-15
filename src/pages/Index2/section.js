@@ -25,6 +25,7 @@ class Section extends Component {
                         <Row>
                             <Col lg={{size:8, offset :2}}  className="col-lg-8 offset-lg-2 text-white text-center">
                                 <h1 style={{fontWeight: "600", paddingTop: "3rem", paddingBottom: "3rem"}} className="home-title">أعلن عبر منصة السناب شات الرسمية</h1>
+                                <p style={{paddingTop: "3rem", paddingBottom: "2rem", color: "#000000", textAlign: "justify", direction: "rtl"}}>أعلن عبر منصة السناب شات الرسميةاصبح سناب شات واحد من أكثر التطبيقات استخداماً في العالم حيث وصل مستخدميه إلى 180 مليون مستخدم يومياً، ويعتبر الاعلان على السناب واحدة من أنجح أنواع الاعلانات، لذلك سوف نقدم لك دراسة متكاملة تعمل على تحقيق أهدافك بإتباع أفضل و أقوى الاستراتيجيات الإعلانية الخاصة بنا. نسعد بخدمتكم.</p>
                             </Col>
                         </Row>
                     </Container>

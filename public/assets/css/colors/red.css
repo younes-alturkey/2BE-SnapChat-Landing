@@ -11,19 +11,19 @@
 .navbar-custom.navbar-white .navbar-nav li a:focus,
 .navbar-custom.navbar-white .navbar-nav li a:active,
 .play-btn,.blog-title:hover,.social-icon:hover i{
-    color: #FFFC00 !important;
+    color: #fffc1a !important;
 }
 
 
 .section-title-border,.bg-custom,.btn-custom,.features-item-list li:before,.process-left-icon-1 i,
 .process-left-icon-2 i{
-    background-color: #FFFC00;
+    background-color: #fffc1a;
 }
 
 
 
 .btn-custom,.play-btn{
-    border-color:#FFFC00 !important;
+    border-color:#fffc1a !important;
 }
 
 .btn-custom:hover,

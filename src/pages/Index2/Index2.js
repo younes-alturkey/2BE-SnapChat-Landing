@@ -27,7 +27,6 @@ class Index2 extends Component {
     render() {
         return (
             <React.Fragment>
-                <ParticlesCont/>
                 
                 {/* Importing Navbar */}
                 <NavbarPage navItems={this.state.navItems} navClass={this.state.navClass} />

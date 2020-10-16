@@ -7,7 +7,6 @@ import AboutUs from "../../components/AboutUs/AboutUs";
 import Pricing from "../../components/Pricing/pricing";
 import Footer from "../../components/Footer/footer";
 import WhatsappBadge from 'react-whatsapp-badge';
-import ParticlesCont from './ParticlesCont'
 
 
 class Index2 extends Component {

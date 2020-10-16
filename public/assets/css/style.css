@@ -168,8 +168,8 @@ img {
 }
 
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: relative;
 }
 
@@ -350,7 +350,7 @@ iframe {
 }
 
 .navbar-custom .navbar-nav li a {
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFF;
     font-size: 16px;
     font-weight: bold;
     background-color: transparent !important;
@@ -1373,12 +1373,18 @@ ul.pattern .color8 {
 
 .progress-bar-striped {
     background-color:  #fffc1a;
+    stroke: #fffc1a;
+    fill: #fff;
 }
 
 .CircularProgressbar {
     stroke: #fffc1a;
     color: #fffc1a;
 }
+
+.example{
+    position:absolute !important;
+    }
 
 
 

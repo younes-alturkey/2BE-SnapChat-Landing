@@ -28,7 +28,7 @@ class Process extends Component {
         <section className={"section " + this.props.sectionClass} id="services">
             <Container>
                 {/* section title */}
-                <SectionTitle title="مميزات الإعلانات على السناب شات" desc="" />
+                <SectionTitle title="مميزات الإعلان على السناب شات" desc="" />
 
                 <Row style={{direction: "rtl"}} className="margin-t-30">
                     {/* services box */}

@@ -64,7 +64,7 @@ class NavbarPage extends Component {
                                             <Nav navbar style={{direction: "rtl"}} className="navbar-center ml-auto" id="mySidenav">
                                                 {this.props.navItems.map((item, key) => (
                                                     <NavItem key={key} className={item.navheading === "Home" ? "active" : "" }>
-                                                        <NavLink style={{color: "#FFF"}} href={"#" + item.idnm} > {item.navheading}</NavLink>
+                                                        <NavLink href={"#" + item.idnm} > {item.navheading}</NavLink>
                                                     </NavItem>
                                                 ))}
                                             </Nav>

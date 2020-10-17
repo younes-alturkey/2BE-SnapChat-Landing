@@ -16,6 +16,8 @@ import ScrollspyNav from "./scrollSpy";
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 
+import logo2BE from "./logo.png";
+
 class NavbarPage extends Component {
     constructor(props){
         super(props);
@@ -71,7 +73,7 @@ class NavbarPage extends Component {
                                         </ScrollspyNav>
                                         </Collapse>
                                         <NavbarBrand className="logo text-uppercase" href="https://bassamatexp.com/" target="_blank" rel="noopener noreferrer">
-                                            2BE
+                                            <img style={{width: "116px", height: "32px"}} src={logo2BE} alt="2BE Logo" />
                                         </NavbarBrand>
                                         <NavbarToggler onClick={this.toggle} ><i className="mdi mdi-menu"></i></NavbarToggler>
 

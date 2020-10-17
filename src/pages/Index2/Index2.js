@@ -6,6 +6,7 @@ import Service from "../../components/Service/service";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Pricing from "../../components/Pricing/pricing";
 import Footer from "../../components/Footer/footer";
+import Contact from "../../components/Contact/Contact";
 import WhatsappBadge from 'react-whatsapp-badge';
 
 
@@ -18,6 +19,7 @@ class Index2 extends Component {
                 { id: 2 , idnm : "services", navheading: "مميزات الإعلان" },
                 { id: 3 , idnm : "features", navheading: "دعنا نناقش إعلانك" },
                 { id: 4 , idnm : "pricing", navheading: "الباقات" },
+                { id: 4 , idnm : "contact", navheading: "تواصل معنا" }
 
             ],
             navClass : ""
@@ -42,6 +44,9 @@ class Index2 extends Component {
 
                 {/* pricing */}
                 <Pricing/>
+
+                {/* contact */}
+                <Contact />
 
                 {/* footer */}
                 <Footer/>

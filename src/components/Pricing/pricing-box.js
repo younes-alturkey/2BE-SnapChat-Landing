@@ -16,7 +16,7 @@ class PricingBox extends Component {
                                 <div className="plan-features margin-t-30">
                                     {
                                         pricing.features.map((feature, key) =>
-                                            <p key={key}>{feature.title}: <b className="text-custom" style={{fontWeight: "600"}}>{feature.value}</b></p>
+                                            <p key={key}>{feature.title} ↭ <b className="text-custom" style={{fontWeight: "600"}}>{feature.value}</b></p>
                                         )
                                     }
                                 </div>

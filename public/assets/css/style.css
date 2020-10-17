@@ -1382,11 +1382,67 @@ ul.pattern .color8 {
     color: #fffc1a;
 }
 
-.example{
-    position:absolute !important;
-    }
+#submit {
+        color: #000000;
+        font-weight: bold;
 
+}
 
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active {
+    background-image: none;
+}
+.btn.btn--blue:hover {
+    background:#FFFC10;
+    border: 2px solid#FFFC10;
+    color: #000;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn.btn--blue {
+    background:#000;
+    border: 2px solid#000;
+    color: #fff;
+}
+.btn.btn--lg {
+    padding: 14px 40px;
+}
+.btn:focus, .btn:hover {
+    background:#FFFC10;
+    border: 2px solid#FFFC10;
+    color: #000;
+}
+.btn {
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.2s ease-in;
+}
+.w-100 {
+    width: 100%!important;
+}
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .3rem .60rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 
 

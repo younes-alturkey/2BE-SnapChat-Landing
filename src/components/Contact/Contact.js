@@ -1,71 +1,56 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, FormGroup } from "reactstrap";
-import { AvForm, AvField } from "availity-reactstrap-validation";
+import { Container, Row, Col} from "reactstrap";
 
 //Import Section Title
 import SectionTitle from "../common/section-title";
 
 class Features extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        }
-    }
 
     render() {
         return (
             <React.Fragment>
-        <section className="section " id="contact">
+        <section style={{paddingTop: "5rem"}} className="section " id="contact">
             <Container>
                 {/* section title */}
-                <SectionTitle title="GET IN TOUCH" desc="We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with measurable results." />
+                <SectionTitle title="تواصل معنا الآن" desc="" />
 
                 <Row>
-                    <Col lg={4}>
-                        <div className="mt-4 pt-4">
-                            <p className="mt-4"><span className="h5">Office Address 1:</span><br/> <span className="text-muted d-block mt-2">4461 Cedar Street Moro, AR 72368</span></p>
-                            <p className="mt-4"><span className="h5">Office Address 2:</span><br/> <span className="text-muted d-block mt-2">2467 Swick Hill Street <br/>New Orleans, LA 70171</span></p>
-                            <p className="mt-4"><span className="h5">Working Hours:</span><br/> <span className="text-muted d-block mt-2">9:00AM To 6:00PM</span></p>
-                        </div>
-                    </Col>
-                    <Col lg={8}>
-                        <div className="custom-form mt-4 pt-4">
-                            <div id="message"></div>
-                            <AvForm name="contact-form" id="contact-form">
-                                <Row>
-                                    <Col lg={6}>
-                                        <FormGroup className="mt-2">
-                                            <AvField required  name="name" id="name" type="text" className="form-control" placeholder="Your name*" />
-                                        </FormGroup>
-                                    </Col>
-                                    <Col lg={6}>
-                                        <FormGroup className="mt-2">
-                                            <AvField required  name="email" id="email" type="email" className="form-control" placeholder="Your email*" />
-                                        </FormGroup>
-                                    </Col>                                
-                                </Row>
-                                <Row>
-                                    <Col lg={12}>
-                                        <FormGroup className="mt-2">
-                                            <AvField required name="subject" type="text" className="form-control" id="subject" placeholder="Your Subject.." />
-                                        </FormGroup>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col lg={12}>
-                                        <FormGroup className="mt-2">
-                                            <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Your message..."></textarea>
-                                        </FormGroup>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col lg={12} className="text-right">
-                                        <input type="submit" id="submit" name="send" className="submitBnt btn btn-custom" value="Send Message"/>
-                                        <div id="simple-msg"></div>
-                                    </Col>
-                                </Row>
-                            </AvForm>
-                        </div>  
+                    <Col lg={12}>
+                    <div style={{textAlign: "right", direction: "rtl"}}>
+                    <div style={{direction: "rtl", textAlign: "right"}}>
+                                                <form method="POST" action="https://offer.bassamatexp.com/getcontacts/store" accept-charset="UTF-8" class="footer-form mb-0"><input name="_token" type="hidden" value="KpfQX2coi2rzwaucmAwMl6Q6spfmr358ooDjjYr9"/>
+                        
+                            <div className="form-group">
+                                <label className="footer-form__label" for="name">الإسم الكامل<span className="required">*</span></label>
+                                <input type="text" className="form-control footer-form__input" id="name" name="name" aria-describedby="name" required/>
+                            </div>
+                            <div className="form-group">
+                                <label className="footer-form__label" for="company">اسم الشركة / المنشآة <span>(اختياري)</span></label>
+                                <input type="text" className="form-control footer-form__input" id="company" name="company" aria-describedby="name" />
+                            </div>
+                            <div class="form-group">
+                                <label className="footer-form__label" for="email">البريد الإلكتروني <span className="required">*</span></label>
+                                <input type="email" className="form-control footer-form__input" id="email" name="email" aria-describedby="email" required/>
+                            </div>
+                            <div className="form-group">
+                                <label className="footer-form__label" for="number">رقم الجوال <span className="required">*</span></label>
+                                <input type="number" className="form-control footer-form__input" id="number" name="number" aria-describedby="number" required/>
+                            </div>
+                            <div className="form-group">
+                                    <label className="footer-form__label" for="package">اختر الباقة  <span class="required">*</span></label>
+                                    <select  className="form-control footer-form__input" id="package" name="package" required>
+                                            <option value="الأفضل - 6000 SAR">الأفضل - 6000 SAR</option>
+                                            <option selected value="الأساسية - 3800 SAR">الأساسية - 3800 SAR</option>
+                                            <option value="الاقتصادية - 1350 SAR">الاقتصادية - 1350 SAR</option>
+                                    </select>
+                                    
+                                </div>
+                            <div className="form-group justify-content-center d-flex mt-4">
+                                <button className="btn btn--blue btn--lg w-100">إرسال</button>
+                            </div>
+                         </form>
+                    </div>
+                </div>
                     </Col>
                 </Row>
             </Container>

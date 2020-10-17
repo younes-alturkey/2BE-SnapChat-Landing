@@ -49,11 +49,11 @@ class AboutUs extends Component {
                                 <br/>
                                 <h3 style={{textAlign: "right", fontWeight: "600", color: "#FFFFFF", fontSize: "1rem"}}>مبيعات أكثر</h3>
                                 <br/>
-                                <ProgressBar label={"99%"} animated now={99} />
+                                <ProgressBar label={"100%"} animated now={100} />
                                 <br/>
                                 <h3 style={{textAlign: "right", fontWeight: "600", color: "#FFFFFF", fontSize: "1rem"}}>وصول أكثر</h3>
                                 <br/>
-                                <ProgressBar label={"90%"} animated now={90} />
+                                <ProgressBar label={"100%"} animated now={100} />
                         </div>
                     </div>
                     </Col>

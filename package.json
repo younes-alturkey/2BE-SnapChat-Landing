@@ -1,6 +1,10 @@
 {
   "name": "2BE-Snapchat-Landing",
+<<<<<<< HEAD
   "homepage": "",
+=======
+  "homepage": "https://snap.bassamatexp.com",
+>>>>>>> e6475a6ee2d3d5ada165068325a95038a693d5b3
   "version": "0.1.0",
   "private": true,
   "dependencies": {

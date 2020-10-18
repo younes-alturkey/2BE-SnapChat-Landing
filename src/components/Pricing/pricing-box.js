@@ -13,6 +13,10 @@ const defaultOptions = {
 };
 
 class PricingBox extends Component {
+    constructor(props) {
+        super(props)
+        this.myRef = React.createRef()  
+    }
     render() {
         return (
             <React.Fragment>
@@ -21,7 +25,7 @@ class PricingBox extends Component {
                         <Col lg={4} key={key} >
                             <div className={"text-center pricing-box hover-effect"}>
                                 <h4 className="text-uppercase">{pricing.title}</h4>
-                                <h1 style={{direction: "rtl"}}>{pricing.price} SAR</h1>
+                                <h1>{pricing.price} <span style={{fontSize: "1rem", paddingTop: "1rem"}}>SAR</span></h1>
                                 <h6 className="text-uppercase text-muted">{pricing.duration}</h6>
 
                                 <div className="plan-features margin-t-30">
@@ -37,7 +41,7 @@ class PricingBox extends Component {
                                 />
                                 </div>
                                 <br/>
-                                <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966545740629" style={{color: "#000000", fontWeight: "600"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اطلب الآن</a>
+                                <a href="#contact" style={{color: "#000000", fontWeight: "600"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اطلب الآن</a>
                             </div>
                         </Col>
                     )

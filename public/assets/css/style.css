@@ -1444,6 +1444,11 @@ ul.pattern .color8 {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.contactsection {
+    background-color: #edd812;
+    background-image: linear-gradient(315deg, #edd812 0%, #766a65 74%);
+}
+
 
 
 

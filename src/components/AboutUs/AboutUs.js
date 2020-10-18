@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
-import animationData from './aboutus-lottie-promo.json';
+import animationData from './aboutus-lottie-socialmedia.json';
 import { Container, Row, Col } from "reactstrap";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';

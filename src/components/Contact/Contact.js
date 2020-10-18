@@ -7,7 +7,7 @@ import SectionTitle from "../common/section-title";
 class Features extends Component {
     state = {
         email: {
-          recipient: 'social@bassamatexp.com ',
+          recipient: 'social@bassamatexp.com',
           sender: 'alturkeyy@gmail.com',
           subject: 'طلب إعلان سناب شات',
           fullname: 'لم يتم الإدخال',
@@ -31,13 +31,14 @@ class Features extends Component {
         const { email } = this.state;
         return (
             <React.Fragment>
-        <section style={{paddingTop: "5rem"}} className="section " id="contact">
+        <section style={{paddingTop: "5rem"}} className="contactsection" id="contact">
             <Container>
                 {/* section title */}
                 <SectionTitle title="تواصل معنا الآن" desc="" />
 
                 <Row>
-                    <Col lg={12}>
+                    <Col lg={2}></Col>
+                    <Col lg={8}>
                     <div style={{textAlign: "right", direction: "rtl"}}>
                     <div style={{direction: "rtl", textAlign: "right"}}>
                             <form>
@@ -84,6 +85,7 @@ class Features extends Component {
                     </div>
                 </div>
                     </Col>
+                    <Col lg={2}></Col>
                 </Row>
             </Container>
         </section>

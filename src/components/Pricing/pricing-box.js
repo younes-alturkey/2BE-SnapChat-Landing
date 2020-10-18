@@ -25,7 +25,7 @@ class PricingBox extends Component {
                         <Col lg={4} key={key} >
                             <div className={"text-center pricing-box hover-effect"}>
                                 <h4 className="text-uppercase">{pricing.title}</h4>
-                                <h1 style={{direction: "rtl"}}>{pricing.price} SAR</h1>
+                                <h1>{pricing.price} SAR</h1>
                                 <h6 className="text-uppercase text-muted">{pricing.duration}</h6>
 
                                 <div className="plan-features margin-t-30">

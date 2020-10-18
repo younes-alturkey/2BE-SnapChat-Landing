@@ -1,5 +1,16 @@
 import React, { Component } from 'react';
 import { Col } from "reactstrap";
+import Lottie from 'react-lottie';
+import animationData from './lottie-snapchat.json';
+
+const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
 
 class PricingBox extends Component {
     render() {
@@ -12,7 +23,7 @@ class PricingBox extends Component {
                                 <h4 className="text-uppercase">{pricing.title}</h4>
                                 <h1 style={{direction: "rtl"}}>{pricing.price} SAR</h1>
                                 <h6 className="text-uppercase text-muted">{pricing.duration}</h6>
-                                <div className="pricing-border"></div>
+
                                 <div className="plan-features margin-t-30">
                                     {
                                         pricing.features.map((feature, key) =>
@@ -20,6 +31,12 @@ class PricingBox extends Component {
                                         )
                                     }
                                 </div>
+                                <div style={{margin: "0", padding: "0"}}>
+                                <Lottie
+                                    options={defaultOptions}
+                                />
+                                </div>
+                                <br/>
                                 <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=966545740629" style={{color: "#000000", fontWeight: "600"}} className="btn btn-custom margin-t-30 waves-effect waves-light">اطلب الآن</a>
                             </div>
                         </Col>

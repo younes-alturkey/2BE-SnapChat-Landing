@@ -7,7 +7,7 @@ import SectionTitle from "../common/section-title";
 class Features extends Component {
     state = {
         email: {
-          recipient: 'web04@bassamatexp.com',
+          recipient: 'social@bassamatexp.com',
           sender: 'alturkeyy@gmail.com',
           subject: 'طلب إعلان سناب شات',
           fullname: 'لم يتم الإدخال',

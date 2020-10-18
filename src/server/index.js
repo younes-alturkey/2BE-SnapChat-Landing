@@ -23,7 +23,7 @@ app.use(cors()); //utilize Cors so the browser doesn't restrict data, without it
 
 // Welcome page of the express server: 
 app.get('/', (req, res) => {
-    res.send("Welcome to the Sendgrid Emailing Server"); 
+    res.send("Welcome to the Emailing Server By Sendgrid"); 
 });
 
 app.get('/send-email', (req,res) => {

@@ -17,7 +17,7 @@ const sgMail = require('@sendgrid/mail'); //sendgrid library to send emails
 const app = express(); //alias from the express function
 
 //sendgrid api key
-sgMail.setApiKey('____YOUR___API__KEY');
+sgMail.setApiKey('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');
 
 app.use(cors()); //utilize Cors so the browser doesn't restrict data, without it Sendgrid will not send!
 
@@ -29,17 +29,15 @@ app.get('/', (req, res) => {
 app.get('/send-email', (req,res) => {
     
     //Get Variables from query string in the search bar
-    const { recipient, emailaddress, fullname, company, phone, package } = req.query; 
+    const { recipient, sender, topic, text } = req.query; 
+    console.log(text);
 
     //Sendgrid Data Requirements
     const msg = {
         to: recipient, 
-        from: emailaddress,
-        subject: 'طلب إعلان سناب شات',
-        fullname: fullname,
-        company: company,
-        phone: phone,
-        package: package
+        from: sender,
+        subject: topic,
+        text: text,
     }
 
     //Send Email
@@ -48,4 +46,4 @@ app.get('/send-email', (req,res) => {
 });
 
 // to access server run 'nodemon index.js' then click here: http://localhost:4000/
-app.listen(4000, () => console.log("Running on Port 4000")); 
+app.listen(4000, () => console.log("Running on Port 4000"));

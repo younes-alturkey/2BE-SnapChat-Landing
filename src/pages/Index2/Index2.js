@@ -45,6 +45,9 @@ class Index2 extends Component {
                 {/* pricing */}
                 <Pricing/>
 
+                <br/>
+                <br/>
+
                 {/* contact */}
                 <Contact />
 

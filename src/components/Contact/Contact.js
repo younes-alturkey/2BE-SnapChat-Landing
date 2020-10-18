@@ -7,7 +7,7 @@ import SectionTitle from "../common/section-title";
 class Features extends Component {
     state = {
         email: {
-          recipient: 'social@bassamatexp.com',
+          recipient: 'web04@bassamatexp.com',
           sender: 'alturkeyy@gmail.com',
           subject: 'طلب إعلان سناب شات',
           fullname: 'لم يتم الإدخال',
@@ -22,7 +22,7 @@ class Features extends Component {
       sendEmail = _ => {
         const { email } = this.state;
         email.text = `Full name: ${email.fullname}  Company Name: ${email.company}   Email: ${email.emailaddress}    Phone: ${email.phone}   Package: ${email.package}`;
-        fetch(`http://localhost:4000/send-email?recipient=${email.recipient}&sender=${email.sender}&topic=${email.subject}&text=${email.text}`) //query string url
+        fetch(`https://snap.bassamatexp.com:4000/send-email?recipient=${email.recipient}&sender=${email.sender}&topic=${email.subject}&text=${email.text}`) //query string url
           .catch(err => console.error(err))
       }
     

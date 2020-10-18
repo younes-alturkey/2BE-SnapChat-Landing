@@ -51,7 +51,7 @@ class Index2 extends Component {
                 {/* footer */}
                 <Footer/>
 
-                <WhatsappBadge text='' phone="966545740629" image='whatsapp.png'/>
+                <WhatsappBadge text='' phone={966545740629} image='whatsapp.png'/>
                 
 
             </React.Fragment>

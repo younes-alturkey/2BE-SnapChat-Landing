@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/2BE-SnapChat-Landing/static/js/main.464e9e08.chunk.js",
+    "main.js.map": "/2BE-SnapChat-Landing/static/js/main.464e9e08.chunk.js.map",
+    "runtime-main.js": "/2BE-SnapChat-Landing/static/js/runtime-main.136d9f97.js",
+    "runtime-main.js.map": "/2BE-SnapChat-Landing/static/js/runtime-main.136d9f97.js.map",
+    "static/css/2.a7eea44f.chunk.css": "/2BE-SnapChat-Landing/static/css/2.a7eea44f.chunk.css",
+    "static/js/2.4a350965.chunk.js": "/2BE-SnapChat-Landing/static/js/2.4a350965.chunk.js",
+    "static/js/2.4a350965.chunk.js.map": "/2BE-SnapChat-Landing/static/js/2.4a350965.chunk.js.map",
+    "index.html": "/2BE-SnapChat-Landing/index.html",
+    "precache-manifest.37c4a2754823766e66124f87002304e2.js": "/2BE-SnapChat-Landing/precache-manifest.37c4a2754823766e66124f87002304e2.js",
+    "service-worker.js": "/2BE-SnapChat-Landing/service-worker.js",
+    "static/css/2.a7eea44f.chunk.css.map": "/2BE-SnapChat-Landing/static/css/2.a7eea44f.chunk.css.map",
+    "static/js/2.4a350965.chunk.js.LICENSE.txt": "/2BE-SnapChat-Landing/static/js/2.4a350965.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/2BE-SnapChat-Landing/static/media/logo.a1dbb112.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.136d9f97.js",
+    "static/css/2.a7eea44f.chunk.css",
+    "static/js/2.4a350965.chunk.js",
+    "static/js/main.464e9e08.chunk.js"
+  ]
+}

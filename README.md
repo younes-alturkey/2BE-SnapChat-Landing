@@ -3,7 +3,7 @@
 * The font-end should work successfully once the build is extracted to the PUBLIC_HTML of the server
 * 
 * 
-# Back-end and Contact Form Functionality through Sendgrid 
+# Back-end and Contact Form
 * The Contact Form uses Express.js and Sendgrid Email API service
 * The index.js located at ../src/server has to be launched and set to listen on port 4000 at URL https://snap.bassamatexp.com:4000/send-email so that the API calls are passed to
 * SendGrid API servers

@@ -10,7 +10,7 @@
 * Please, use your own SendGrid API key. It's for for 100 emails a day forever
 ## Deployment Recap
 1. Extract Build.zip to PUBLIC_HTML
-2. Run index.js located at ../src/server of the source code get Source Code from here [https://github.com/alturkeydev/snap-bassamatexp] to get the Contact Form to work
+2. Run index.js located at ../src/server of the source code get Source Code from here [https://github.com/alturkeydev/2BE-SnapChat-Landing] to get the Contact Form to work
 3. Done
 ## Configured By
 * by Younes Alturkey - https://github.com/alturkeydev

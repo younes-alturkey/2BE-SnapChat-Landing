@@ -12,4 +12,4 @@
 2. Run the Express.js Server send through email to get the Contact Form to work
 3. Done
 ## Configured By
-* by Younes Alturkey - https://github.com/alturkeydev
+* by Younes Alturkey - https://github.com/younes-alturkey
